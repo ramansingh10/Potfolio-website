@@ -33,6 +33,9 @@ document.getElementById("snake-game").addEventListener('click',()=>{
 document.getElementById("spotify-clone").addEventListener('click',()=>{
     window.open("https://github.com/ramansingh10/Spotify-Clone");
 });
+document.getElementById("aqi").addEventListener('click',()=>{
+    window.open("https://github.com/ramansingh10/Air-Quality-Prediction-System");
+});
 //const contain=document.getElementById("pdfContainer");
 //    contain.innerHTML = `
 //    <embed src="documents/Your_new_CV.pdf" type="application/pdf" width="100%" height="600px" />

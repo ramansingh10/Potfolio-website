@@ -49,3 +49,24 @@ mode.addEventListener('click',()=>{
         mode.src="svg/sun-solid.svg";
     }
 })
+
+
+document.getElementById("contactForm").addEventListener("submit", function(e) {
+      e.preventDefault();
+
+      const formData = new FormData(this);
+      const data = {};
+      formData.forEach((value, key) => data[key] = value);
+
+      fetch("https://script.google.com/macros/s/AKfycbziRbRbGIXS5adit4ac_2Jc7xBaX8kYZSYijS1y2IC4I2M5HWWxGRPNrooVxQPA8TYAmQ/exec", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data)
+      })
+      .then(response => response.text())
+      .then(result => {
+        alert("Form submitted successfully!");
+        document.getElementById("contactForm").reset();
+      })
+      .catch(error => alert("Error: " + error.message));
+    });

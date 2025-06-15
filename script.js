@@ -36,7 +36,16 @@ document.getElementById("spotify-clone").addEventListener('click',()=>{
 document.getElementById("aqi").addEventListener('click',()=>{
     window.open("https://github.com/ramansingh10/Air-Quality-Prediction-System");
 });
-//const contain=document.getElementById("pdfContainer");
-//    contain.innerHTML = `
-//    <embed src="documents/Your_new_CV.pdf" type="application/pdf" width="100%" height="600px" />
-//  `;
+
+let mode=document.getElementById("darkmode-icon");
+mode.addEventListener('click',()=>{
+    document.body.classList.toggle("dark-mode");
+    document.querySelectorAll('.icon').forEach(img => {
+        img.classList.toggle('invert');
+    });
+    if(document.body.classList.contains("dark-mode")){
+        mode.src="svg/moon-solid.svg";
+    }else{
+        mode.src="svg/sun-solid.svg";
+    }
+})

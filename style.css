@@ -426,6 +426,7 @@ nav ul li a:hover::after{
 }
 .date{
     font-size: 18px;
+    margin-left: 12px;
 } 
 .project-grid ul{
     display: inline-block;
@@ -489,7 +490,7 @@ nav ul li a:hover::after{
 }
 .contact-item{
     display: flex;
-    background-color: var(--fourth-color);
+    background-color: #fff;
     margin-left: 130px;
     margin-bottom: 25px;
     width: 65%;
@@ -512,12 +513,12 @@ nav ul li a:hover::after{
 }
 .contact-text h3{
     font-size: 25px;
-    color: var(--primary-color);
+    color: black;
     margin-left: 35px;
     margin-bottom: 10px;
 }
 .contact-text a{
-    color: var(--primary-color);
+    color: black;
     margin-left: 35px;
     font-size: 15px;
 }

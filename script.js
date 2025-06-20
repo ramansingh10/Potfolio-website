@@ -36,6 +36,9 @@ document.getElementById("spotify-clone").addEventListener('click',()=>{
 document.getElementById("aqi").addEventListener('click',()=>{
     window.open("https://github.com/ramansingh10/Air-Quality-Prediction-System");
 });
+document.getElementById("ems").addEventListener('click',()=>{
+    window.open("https://github.com/ramansingh10/Employee-Management-System")
+})
 
 let mode=document.getElementById("darkmode-icon");
 mode.addEventListener('click',()=>{

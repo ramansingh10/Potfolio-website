@@ -40,8 +40,8 @@ body{
 }
 #logo{
    padding: 10px;
-   color: aquamarine;
-   font-size:50px;
+   color: #FF0800;
+   font-size: 50px;
 }
 .container{
     background-color: var(--ternary-color);

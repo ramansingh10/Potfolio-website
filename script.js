@@ -53,6 +53,14 @@ mode.addEventListener('click',()=>{
     }
 })
 
+document.getElementById("openMenu").addEventListener('click',()=>{
+    sideMenu.style.right="0";
+})
+
+document.getElementById("closeMenu").addEventListener('click',()=>{
+    sideMenu.style.right="-200px";
+})
+
 
 document.getElementById("contactForm").addEventListener("submit", function(e) {
       e.preventDefault();

@@ -26,10 +26,12 @@ document.getElementById("nptel").addEventListener('click',()=>{
     window.open("../documents/dbms.pdf");
 });
 
+document.getElementById("gemini-clone").addEventListener('click',()=>{
+    window.open("https://github.com/ramansingh10/Gemini-Clone");
+});
 document.getElementById("snake-game").addEventListener('click',()=>{
     window.open("https://github.com/ramansingh10/snakegame");
 });
-
 document.getElementById("spotify-clone").addEventListener('click',()=>{
     window.open("https://github.com/ramansingh10/Spotify-Clone");
 });
